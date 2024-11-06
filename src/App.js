@@ -1,15 +1,16 @@
-import './App.css';
-import Footer from './components/Footer.js';
-import Header from './components/Header.js';
-import SpotifyEmbed from './components/SpotifyEmbed.js';
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./style/bootstrap.scss";
+import Footer from "./components/Footer.js";
+import Header from "./components/Header.js";
 
 function App() {
   return (
     <div className="App">
-<Header />
-{/* <SpotifyEmbed uri="spotify:album:1DFixLWuPkv3KT3TnV35m3" />     */}
-<Footer/>
-</div>
+      <Header />
+      {/* <TodoList /> */}
+      <Footer />
+    </div>
   );
 }
 

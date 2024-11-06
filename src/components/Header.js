@@ -1,18 +1,14 @@
 export default function Header() {
-    return (
-        <>
-            {/* <script src="https://sdk.scdn.co/spotify-player.js"></script> */}
-            {/* This is header */}
-            <header>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Connect</a></li>
-                </ul>
-            </nav>
-            </header>
-    
-        </>
-    )
+  return (
+    <>
+      <div className="containers">
+        <header className="d-flex justify-content-between align-items-center mx-5 py-3 border-bottom">
+          <h3 className="fw-bold px-5">Rajshree T </h3>
+          <button className="btn btn-primary arrow-icon">
+            Get in touch <span className="arrow">{"\u2192"}</span>
+          </button>
+        </header>
+      </div>
+    </>
+  );
 }

@@ -1,7 +1,3 @@
 export default function Footer() {
-    return (
-            <footer>
-                    &copy; {new Date().getFullYear()} rajshree-tech        
-            </footer>
-    )
+  return <footer>&copy; {new Date().getFullYear()} rajshree.space</footer>;
 }
