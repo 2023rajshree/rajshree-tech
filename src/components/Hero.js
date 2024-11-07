@@ -30,9 +30,9 @@ export default function Hero() {
               >
                 Get in touch
               </button>
-              <button className="btn" onClick={openResume}>
+              {/* <button className="btn" onClick={openResume}>
                 Download Resume
-              </button>
+              </button> */}
             </div>
           </div>
 
