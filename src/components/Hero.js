@@ -1,11 +1,7 @@
 import React from "react";
 import illustrate from "../assets/illustrate.jpeg"; // Import your image
-import RajshreeTungare from "../assets/document/RajshreeTungare.pdf"; // Import the PDF
 export default function Hero() {
 
-  const openResume = () => {
-    window.open(RajshreeTungare, "_blank");
-  };
 
   return (
     <section>
@@ -30,9 +26,9 @@ export default function Hero() {
               >
                 Get in touch
               </button>
-              {/* <button className="btn" onClick={openResume}>
+              <button className="btn">
                 Download Resume
-              </button> */}
+              </button>
             </div>
           </div>
 
