@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5c69d397.css",
+    "main.js": "/static/js/main.647b3e17.js",
+    "static/js/453.89753c87.chunk.js": "/static/js/453.89753c87.chunk.js",
+    "static/media/RajshreeTungare.pdf": "/static/media/RajshreeTungare.a5faba12735524454fc4.pdf",
+    "static/media/illustrate.jpeg": "/static/media/illustrate.7f431de0734d7b8c6111.jpeg",
+    "index.html": "/index.html",
+    "main.5c69d397.css.map": "/static/css/main.5c69d397.css.map",
+    "main.647b3e17.js.map": "/static/js/main.647b3e17.js.map",
+    "453.89753c87.chunk.js.map": "/static/js/453.89753c87.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c69d397.css",
+    "static/js/main.647b3e17.js"
+  ]
+}
